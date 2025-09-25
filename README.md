@@ -19,8 +19,8 @@ pip install -r requirements.txt
 ### Basic Evaluation
 ```bash
 python eval.py --model qwen2.5-7b \
-                --data_path data/KnowMT_QA.json \
-                --output_path results/ \
+    --data_path data/KnowMT_QA.json \
+    --output_path results/ \
 ```
 
 ### Arguments
