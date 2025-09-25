@@ -44,7 +44,3 @@ Optional:
 Results saved in unified JSON format with metrics like `F1_fact`, `recall_fact`, etc.
 
 ## To Do
-
-## License
-
-MIT License
