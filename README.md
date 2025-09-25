@@ -45,6 +45,9 @@ Results saved in unified JSON format with metrics like `F1_fact`, `recall_fact`,
 
 ## ✅ To Do
 
+- [x] Data release
+- [x] Basic evaluation
+......
 
 ## ⭐ Star History
 
