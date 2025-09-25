@@ -10,7 +10,7 @@ conda create -n knowmt python=3.10
 conda activate knowmt
 
 # Install dependencies
-pip install requirements.txt
+pip install -r requirements.txt
 ```
 
 ## Usage
