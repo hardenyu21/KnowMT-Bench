@@ -1,6 +1,6 @@
 # KnowMT-Bench
 
-Benchmarking Knowledge-Intensive Multi-Turn Long Form Question Answering.
+Benchmarking Knowledge-Intensive Long Form Question Answering for LLMs in Multi-Turn Dialogues.
 
 ## Get Start
 
