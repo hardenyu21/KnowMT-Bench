@@ -1,8 +1,8 @@
-# KnowMT-Bench
+# 📖 KnowMT-Bench
 
 Benchmarking Knowledge-Intensive Long Form Question Answering for LLMs in Multi-Turn Dialogues.
 
-## Get Start
+## 🚀 Get Started
 
 ```bash
 # Create environment
@@ -11,19 +11,19 @@ conda activate knowmt
 
 # Install dependencies
 pip install -r requirements.txt
-```
-
-## Usage
 
 
-### Basic Evaluation
+## 🛠️ Usage
+
+
+### ⚡️ Basic Evaluation
 ```bash
 python eval.py --model qwen2.5-7b \
     --data_path data/KnowMT_QA.json \
     --output_path results/ \
 ```
 
-### Arguments
+### ⚙️ Arguments
 
 Required:
 - `--model`: Model name
@@ -35,7 +35,7 @@ Optional:
 - `--limit`: Max samples to evaluate
 - `--resume_from_stage {1,2,3}`: Resume from stage
 
-## Three-Stage Pipeline
+## 🔄 Three-Stage Pipeline
 
 1. **Generate**: Target model generates responses
 2. **Decompose**: Extract factual statements
@@ -43,4 +43,9 @@ Optional:
 
 Results saved in unified JSON format with metrics like `F1_fact`, `recall_fact`, etc.
 
-## To Do
+## ✅ To Do
+
+
+## ⭐ Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=hardenyu21/KnowMT-Bench&type=Date)](https://star-history.com/#hardenyu21/KnowMT-Bench)
