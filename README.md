@@ -2,17 +2,7 @@
 
 Benchmarking Knowledge-Intensive Multi-Turn Long Form Question Answering.
 
-## Overview
-
-KnowMT-Bench is an evaluation framework for knowledge-intensive multi-turn question answering systems. It implements a three-stage pipeline: Generate → Decompose → Evaluate with dynamic memory management.
-
-## Dataset
-
-- **801 samples** across Medicine, Finance, and Law domains
-- **Multi-turn dialogues** with 2-5 conversation turns
-- **Must-have facts** for factuality evaluation
-
-## Installation
+## Get Start
 
 ```bash
 # Create environment
@@ -25,17 +15,12 @@ pip install requirements.txt
 
 ## Usage
 
-### Demo
-```bash
-python demo_eval.py
-```
 
 ### Basic Evaluation
 ```bash
 python eval.py --model qwen2.5-7b \
                 --data_path data/KnowMT_QA.json \
                 --output_path results/ \
-                --limit 10
 ```
 
 ### Arguments
